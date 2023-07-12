@@ -9,8 +9,11 @@ const userSchema = new Schema ({
         type: String,
         required: true
     },
-    email: String
-}, {
+    email: String,
+    avatar: String
+
+    }, {
+    
     timestamps: true
 
 });
