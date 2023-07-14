@@ -3,8 +3,12 @@ const  Stylist  = require('../models/stylist');
 module.exports = {
     new: newStylist,
     create
+    //show
     
   };
+
+      // create show function
+
 
   async function create (req, res) {
     req.body.recommended = !!req.body.recommended;
@@ -21,12 +25,8 @@ module.exports = {
 }
 
 
-   
- 
-
- 
-  function newStylist (req, res) {
+   function newStylist (req, res) {
     // We'll want to be able to render an
-  // errorMsg if the create action fails
+    // errorMsg if the create action fails
   res.render('stylist/new', { errorMsg: '' });
   }

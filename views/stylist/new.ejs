@@ -1,6 +1,6 @@
-
+<%- include('../partials/header') %>
 <h2>Enter Your Stylist</h2>
-<form action="/stylist" method ="post">
+<form id="new-form" action="/stylist" method ="POST">
     <label> Instagram:
         <input type="text" name="instagram">
     </label><br>
@@ -13,3 +13,4 @@
     <button type="submit">Enter</button>
 
 </form>
+<%- include('../partials/footer') %>
