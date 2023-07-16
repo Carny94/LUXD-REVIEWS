@@ -1,5 +1,6 @@
 const  Stylist  = require('../models/stylist');
 const allStylist = require('../models/stylist');
+// const Review = require('../models/stylist');
 
 module.exports = {
     new: newStylist,
@@ -17,6 +18,7 @@ async function index (req, res) {
 async function show (req, res) {
   const stylist = await Stylist.findById(req.params.id).populate('artistryType');
   const showAllStylist = await allStylist.find({}); // Define showAllStylist variable
+  // const reviews = await Review.find({ stylist: req.params.id });
  res.render('stylist/show', { title: 'Stylist Detail', stylist, showAllStylist });
 } 
 
