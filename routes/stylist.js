@@ -8,9 +8,12 @@ const stylistCtrl = require('../controllers/stylist');
 router.get('/', stylistCtrl.index);
 // GET / movies/ new
 router.get('/new', stylistCtrl.new);
+
+// GET /movies/:id (show functionality) MUST be below new route
+router.get('/:id', stylistCtrl.show);
 //POST / Movies
 router.post('/', stylistCtrl.create);
-//create a show route 
+
 
 
 module.exports = router;

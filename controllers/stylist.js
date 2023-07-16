@@ -4,23 +4,21 @@ const allStylist = require('../models/stylist');
 module.exports = {
     new: newStylist,
     create,
-    index
-    
-    
-    
+    index,
+    show
   };
-// create show function
-// async function show (req, res) {
-//   const stylist = await Stylist.findById(req.params.id).populate('artistryType');
- 
-//  res.render('stylist/show', { title: 'Stylist Detail', movie, performers });
-// } 
 
 async function index (req, res) {
   const showAllStylist = await allStylist.find({});
   res.render('stylist/index', { title: 'All Stylist', showAllStylist });
-
 };
+
+
+async function show (req, res) {
+  const stylist = await Stylist.findById(req.params.id).populate('artistryType');
+  const showAllStylist = await allStylist.find({}); // Define showAllStylist variable
+ res.render('stylist/show', { title: 'Stylist Detail', stylist, showAllStylist });
+} 
 
 
   async function create (req, res) {
