@@ -1,0 +1,23 @@
+<%- include('../partials/header') %>
+
+<table id="list">
+    <thead>
+      <tr>
+        <th>Instagram</th>
+        <th>Artistry<br>Type</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% showAllStylist.forEach(function(s) { %>
+        <tr>
+          <td><%= s.instagram %></td>
+          <td><%= s.artistryType %></td>
+          <td><a href="/stylist/<%= s._id %>">DETAILS</a></td>
+        </tr>
+        <% }); %>
+      </tbody>
+    </table>
+    
+  <%- include('../partials/footer') %>
+  
