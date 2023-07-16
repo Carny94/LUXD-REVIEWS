@@ -13,7 +13,7 @@
 <h2>Reviews</h2>
 <% if (user) { %>
 <form id= "add-review-form" method="post"
- action="/stylist/<%= showAllStylist._id %>/reviews">
+ action="/stylist/<%= stylist._id %>/reviews">
   <label>Review:</label>
   <textarea name="content"></textarea>
   <label>Rating:</label>

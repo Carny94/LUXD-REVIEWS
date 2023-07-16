@@ -18,5 +18,5 @@ async function create (req, res) {
         console.log(err);
     }
     //redirect if data has been changed
-    res.redirect(`/stylistReview/${stylistReview._id}`);
+    res.redirect(`/stylist/${stylistReview._id}`);
     }
