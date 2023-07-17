@@ -1,0 +1,8 @@
+<%- include('../partials/header') %>
+<form id="edit-form" method="POST" action="/stylist/<%= stylist.id %>/edit">
+    <label>Instagram:
+        <input type="text" name="instagram">
+    </label>
+    <button type="submit">Save</button>
+</form>
+<%- include('../partials/footer') %>

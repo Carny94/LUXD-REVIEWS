@@ -49,4 +49,4 @@ const createStylistSchema = new Schema ({
   
 });
 
-module.exports = mongoose.model('style', createStylistSchema);
+module.exports = mongoose.model('Stylist', createStylistSchema);
