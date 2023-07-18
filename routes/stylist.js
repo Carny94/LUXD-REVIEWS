@@ -6,25 +6,27 @@ var router = express.Router();
 const stylistCtrl = require('../controllers/stylist');
 //GET/stylist
 router.get('/', stylistCtrl.index);
-// GET / movies/ new
+// GET / stylist/ new
 router.get('/new', stylistCtrl.new);
 
 // Edit route
 router.get('/:id/edit', stylistCtrl.edit);
 
-//POST / Movies
+//POST / stylist
 router.post('/', stylistCtrl.create);
 
 //DELETE/Stylist
 router.delete('/:id', stylistCtrl.delete);
 
-// GET /movies/:id (show functionality) MUST be below new route
+// GET /:id 
 router.get('/:id', stylistCtrl.show);
 
+// PUT /stylist/:id 
+router.put('/:id', stylistCtrl.update);
 
 
 
-//put
+
 
 
 

@@ -1,15 +1,28 @@
 const  Stylist  = require('../models/stylist');
 
-// const Review = require('../models/stylist');
-
 module.exports = {
     new: newStylist,
     create,
     index,
     show,
     delete: deleteStylist,
-    edit
+    edit,
+    update
   };
+  async function update(req, res) {
+   
+    try{
+    const stylistId = req.params.id;
+    const filter = { _id: stylistId};
+
+
+       await Stylist.updateOne(filter, req.body);
+
+        res.redirect(`/stylist/${stylistId}`);
+      } catch (error) {
+        console.error('Error occurred while updating stylist:', error);
+      }
+      };
 
 async function edit(req, res) {
   const stylist = await Stylist.findById(req.params.id);

@@ -1,17 +1,18 @@
 <%- include('../partials/header') %>
 <h2>Enter Your Stylist</h2>
+<p>Enter the stylist you wish to review!</p>
 <form id="new-form" action="/stylist" method ="POST">
     <label> Instagram:
         <input type="text" name="instagram">
     </label><br>
-    <label> Artist Type:
+    <label> ARTIST TYPE:
         <select name="artistryType">
             <option value="Makeup">Makeup</option>
             <option value="Hair">Hair</option>
             <option value="Photography">Photography</option>
         </select>
     </label><br>
-    <label>Will you recommend?
+    <label>WILL YOU RECOMMEND ? (check for yes)
         <input type="checkbox" name="recommended">
     </label><br>
     <button type="submit">Enter</button>

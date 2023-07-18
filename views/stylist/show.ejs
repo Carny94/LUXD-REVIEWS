@@ -1,15 +1,16 @@
 <%- include('../partials/header') %>
 <section id="show-page">
-  <div>Instagram: </div>
+  <div>INSTAGRAM: </div>
   <div><%= stylist.instagram %></div>
-  <div>Artistry type: </div>
+  <div>ARTISTRY TYPE: </div>
   <div><%= stylist.artistryType %></div>
-  <div>recommend?: </div>
-  <div><%= stylist.recommended ? 'Yes' : 'Nope' %></div>
+  <div>WILL YOU REFER ?: </div>
+  <div><%= stylist.recommended ? 'YES' : 'NO' %></div>
 </section>
+
 <form action="/stylist/<%= stylist._id %>?_method=DELETE"
   class="delete-form" method="POST">
-  <button type="submit">X</button>
+  <button type="submit">Delete Submission</button>
 </form>
 
 <br><br>
@@ -18,7 +19,7 @@
 <form id= "add-review-form" method="post"
  action="/stylist/<%= stylist._id %>/reviews">
   <label>Review:</label>
-  <textarea name="content"></textarea>
+  <textarea name="content" id="review-content"></textarea>
   <label>Rating:</label>
   <fieldset class="star-rating">
     <input type="radio" id="star5" name="rating" value="5" />

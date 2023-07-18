@@ -1,21 +1,94 @@
-body {
+/* body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} */
+
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  color:black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-a {
-  color: #00B7FF;
+li {
+  float: left;
 }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav > img {
+  width: 34px;
+  object-fit: contain;
+  margin-right: auto;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+body {
+  background-image: url('https://www.southernliving.com/thmb/af4qbY9-fzpDH_RhRSdtbSbGv1I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1159483894-2000-548dffaf4e17414f8a89662e6648461e.jpg');
+  /* Additional CSS properties for background */
+}
+
+#show-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 30px;
+  color: #111;
+  background-color: rgba(172, 100, 23, 0.415);
+}
+
+.delete-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
 
 #add-review-form {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 400px;
+}
+#review-content {
+  background-color: #f3f3f3;
 }
 
-#add-review-form input[type="submit"] {
-  width: 8rem;
-  grid-column: 2 / 3;
-  margin-bottom: 2rem;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
