@@ -4,6 +4,11 @@ Welcome to " Luxd Reeviews ". When you enter this website feel free to be free a
 I have created this site for stylist of all sorts(makeup, photography, and more). Sometime we dont know what we're getting are selves into when we sit in that chair. So i think it is helpful to have a site specificly for stylist and there clients!
 
 FEATURES:smirk:
+-ADD REVIEWS UNDER STLYIST INFO
+-UPDATE IG NAME (FOR NOW)
+-LOGIN WITH YOUR GOOGLE EMAIL
+-DELET REVIEWS IF YOU HAVE A CHANGE OF MIND
+
 
 ![ExpressJS-Dark](https://github.com/mookdook94/Project2/assets/134980150/53a4dbf8-9ca4-46eb-901f-ec92fb490c92)
 ![HTML](https://github.com/mookdook94/Project2/assets/134980150/0f1cdd76-49b6-4949-91d6-9367dacf4396)
