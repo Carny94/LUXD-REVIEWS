@@ -16,4 +16,11 @@ Here is my ERD: <img width="1440" alt="Screenshot 2023-07-18 at 8 30 41 AM" src=
 My wireframe (planning for my project)
 <img width="1440" alt="Screenshot 2023-07-18 at 8 35 42 AM" src="https://github.com/mookdook94/Project2/assets/134980150/59da1261-da4f-4108-83fc-fc491772169b">
 
+FEATURES TO ADD NEXT:
+I will like to give the user to login as a stylist to upload there work, and have another user (client or propspective client) to be able to post reviews. I will also like to add a upload photo option to my site where all users will beable to comment on. 
+
+Also, will like to add a search by location option!
+
+CLICK HERE TO START YOUR REVIEW!!!
+https://luxd-90407e25f855.herokuapp.com/stylist/new
 
