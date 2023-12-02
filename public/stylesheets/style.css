@@ -42,6 +42,43 @@ li a:hover {
 
 body {
   background-color: rgb(241, 233, 233);
+  background-size: contain; /* or cover, depending on your preference */
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Homepage  */
+body::before {
+  content: ""; 
+  position: fixed;
+  top: 20%;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background-image: url('/luxdlogo.jpeg');
+  background-size: contain; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1; 
+}
+
+.about{
+width: 40%;
+height:30%;
+top: 30%;
+left:50%;
+border: 1px solid black;
+position: fixed;
+word-wrap: break-word;
+text-align: center;
+font-family: 'Vina Sans', sans-serif;
+
+
+
 }
 
 #show-page {
