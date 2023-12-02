@@ -41,13 +41,13 @@ async function index (req, res) {
 };
 
 
-async function show (req, res) {
+async function show (req,res){
   const stylist = await Stylist.findById(req.params.id);
   console.log(stylist)
  // Define showAllStylist variable
   // const reviews = await Review.find({ stylist: req.params.id });
  res.render('stylist/show', { title: 'Stylist Detail', stylist });
-} 
+}
 
 
   async function create (req, res) {

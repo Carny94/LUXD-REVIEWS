@@ -41,8 +41,7 @@ li a:hover {
 }
 
 body {
-  background-image: url('https://www.southernliving.com/thmb/af4qbY9-fzpDH_RhRSdtbSbGv1I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1159483894-2000-548dffaf4e17414f8a89662e6648461e.jpg');
-  /* Additional CSS properties for background */
+  background-color: rgb(241, 233, 233);
 }
 
 #show-page {
@@ -67,13 +66,13 @@ body {
 }
 
 
-#add-review-form {
+/* #add-review-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   max-width: 400px;
-}
+} */
 #review-content {
   background-color: #f3f3f3;
 }
@@ -90,5 +89,26 @@ html, body {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+.review-user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.review-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-user img, .review-user span {
+  vertical-align: middle;
+}
+
+tr td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
 }
 
