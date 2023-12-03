@@ -34,8 +34,7 @@ li a:hover {
   background-color: #111;
 }
 /* Universal */
-body {
-  background-color: rgb(241, 233, 233);
+.body {
   background-size: contain; 
   background-position: center center;
   background-repeat: no-repeat;
@@ -45,7 +44,7 @@ body {
 }
 
 /* Homepage  */
-body::before {
+.about-container::before {
   border-radius: 25px;
   content: ""; 
   position: fixed;
@@ -76,19 +75,7 @@ font-size: large;
 }
 /* Show Page */
 
-#show-page {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  border: 3px solid black;
-  padding: 20px;
-  max-width: 400px;
-  margin: 0 auto;
-  font-size: 30px;
-  color: #111;
-  background-color: rgba(172, 100, 23, 0.415);
-}
+
 
 
 .delete-form {
@@ -107,9 +94,7 @@ font-size: large;
   margin: 0 auto;
   max-width: 400px;
 } */
-#review-content {
-  background-color: #f3f3f3;
-}
+
 
 html, body {
   height: 100%;
@@ -117,32 +102,12 @@ html, body {
   padding: 0;
 }
 
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
-}
-.review-user {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
+} */
 
-.review-user img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.review-user img, .review-user span {
-  vertical-align: middle;
-}
-
-tr td {
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
 

@@ -1,0 +1,43 @@
+#show-page-container {
+    background-size: contain; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#show-page {
+    display: flex;
+    justify-content:center ; 
+    border: 2px solid rgb(60, 60, 151);
+}
+
+#review-content {
+    background-color: #8b0e0e;
+  }
+
+  .review-user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .review-user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .review-user img, .review-user span {
+    vertical-align: middle;
+  }
+
+  /* list/display of reviews  */
+  tr td {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  
