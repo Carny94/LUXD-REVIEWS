@@ -1,5 +1,16 @@
-<%- include('../partials/header') %>
-<section id="show-page">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/public/stylesheets/show.css"> 
+
+</head>
+<body>
+  </html><%- include('../partials/header') %>
+  <div id="show-page-container">
+.<section id="show-page">
   <div>INSTAGRAM: </div>
   <div><%= stylist.instagram %></div>
   <div>ARTISTRY TYPE: </div>
@@ -14,7 +25,7 @@
 </form>
 
 <br><br>
-<h2>Reviews</h2>
+<h2 class="review-header">Reviews</h2>
 <% if (user) { %>
 <form id= "add-review-form" method="post"
  action="/stylist/<%= stylist._id %>/reviews">
@@ -82,3 +93,6 @@
   <% } else { %>
     <h5>No Reviews Yet</h5>
   <% } %>
+</div>
+</body>
+

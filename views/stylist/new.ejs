@@ -1,6 +1,14 @@
-<%- include('../partials/header') %>
-<h2>Enter Your Stylist</h2>
-<p>Enter the stylist you wish to review!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include('../partials/header') %>
+
+<h3>Enter the stylist you wish to review</h3>
 <form id="new-form" action="/stylist" method ="POST">
     <label> Instagram:
         <input type="text" name="instagram">
@@ -18,4 +26,5 @@
     <button type="submit">Enter</button>
 
 </form>
-<%- include('../partials/footer') %>
+</body>
+</html>
