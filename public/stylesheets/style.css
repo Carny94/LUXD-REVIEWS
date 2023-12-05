@@ -58,14 +58,7 @@ li a:hover {
   background-repeat: no-repeat;
   z-index: -1; 
 }
-.click-below {
-  font-family: 'Vidaloka', serif;
-  color:rgb(82, 31, 0);
-  width: 40%;
-  height:30%;
-  margin-top: 40%;
-  margin-left:50%;
-}
+
 .makeup {
   background-image: url('../makeup.jpg');
   display: flex;
@@ -100,19 +93,23 @@ text-align: center;
 font-family: 'Vidaloka', serif;
 font-size: large;
 }
-.do-first,.do-second,.do-third,::before {
+.scroll-to-bottom::before {
   content: "\21E9";
   font-size: 24px;
-  display: none; /* Hide the element by default */
-  margin-top: 45%;
+  display: block; /* Hide the element by default */
+  position: fixed;
+ margin-top: 40%; /* Adjust as needed */
   margin-left: 50%;
   cursor: pointer;
 }
-.scroll-to-bottom.active::before {
-  display: block; /* Show the element when it has the "active" class */
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the container horizontally */
+  justify-content: flex-end; /* Center the container vertically */
+  height: 100vh; /* Set the height to 100% of the viewport height for vertical centering */
+  margin-top: auto;
 }
-
-
 
 /* Show Page */
 
