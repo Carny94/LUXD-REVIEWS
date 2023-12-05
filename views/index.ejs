@@ -1,12 +1,57 @@
 <%- include('./partials/header') %>
-<div class="about-container">
-    <p class="about">Welcome to LuxD Reviews, your ultimate destination for 
-        elevating your styling experience.
-        Our user-friendly interface empowers clients to share their valuable 
-        feedback about the exceptional or Not so great service they've received. 
-        Our users are allowed to chose from different stylist such as photography,
-        hair, makeup & more !
-    </p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="about-container">
+        <p class="about">Welcome to LuxD Reviews, your ultimate destination for 
+            elevating your styling experience.
+            Our user-friendly interface empowers clients to share their valuable 
+            feedback about the exceptional or Not so great service they've received. 
+            Our users are allowed to chose from different stylist such as photography,
+            hair, makeup & more ! <br><br> CLICK BELOW FOR QUICK INSTRUCTIONS
+    
+        </p>
+    
+            <div class="scroll-to-bottom" id="scrollButton"></div>
+             <div class="do-first">
+                <h4>1st Step</h4>
+                <p> Create stylist LuxD card by clicking Add New Stylist in the tab bar.</p>
+             </div>
+             <div class="do-second">
+                <h4>2nd step</h4>
+                 <p> Write a Review Awesome or NOT !<br>
+                    Be sure your Logged in to create a review.
+                 </p>
+             </div>
+             <div class="do-third">
+                <h4>3rd Step</h4>
+                <p>Tell your Friends<br>
+                    <a href="click-to-start"></a>
+                </p>
 
+             </div>
+             
+    
+            </div>
+            <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                    const scrollButton = document.getElementById('scrollButton');
+                    const scrollContent = document.querySelector('.scroll-to-bottom');
+
+                    // Add click event listener to toggle the "active" class
+                    scrollButton.addEventListener('click', function () {
+                        scrollContent.classList.toggle('active');
+            });
+            });
+              </script>
+        </div>
+    
+</body>
+</html>
+    
 <%- include('./partials/footer')%>

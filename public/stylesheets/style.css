@@ -31,7 +31,7 @@ nav > img {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color:#FACFCE;
 }
 /* Universal */
 .body {
@@ -58,7 +58,36 @@ li a:hover {
   background-repeat: no-repeat;
   z-index: -1; 
 }
-
+.click-below {
+  font-family: 'Vidaloka', serif;
+  color:rgb(82, 31, 0);
+  width: 40%;
+  height:30%;
+  margin-top: 40%;
+  margin-left:50%;
+}
+.makeup {
+  background-image: url('../makeup.jpg');
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 30%;
+  margin-left: 70%;
+}
+.salon {
+  background-image: url('../salon.jpg');
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 30%;
+  margin-bottom: -70%;
+}
 .about{
 width: 40%;
 height:30%;
@@ -70,9 +99,21 @@ word-wrap: break-word;
 text-align: center;
 font-family: 'Vidaloka', serif;
 font-size: large;
-
-
 }
+.do-first,.do-second,.do-third,::before {
+  content: "\21E9";
+  font-size: 24px;
+  display: none; /* Hide the element by default */
+  margin-top: 45%;
+  margin-left: 50%;
+  cursor: pointer;
+}
+.scroll-to-bottom.active::before {
+  display: block; /* Show the element when it has the "active" class */
+}
+
+
+
 /* Show Page */
 
 

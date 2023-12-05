@@ -9,9 +9,27 @@
 }
 
 #show-page {
-    display: flex;
-    justify-content:center ; 
-    border: 2px solid rgb(60, 60, 151);
+    border: 1px solid gray;
+    padding: 10px; 
+    margin-top: 10%;
+    
+
+}
+
+.show-info-label {
+text-align: center;
+/* letter-spacing:  */
+font-family: 'Vidaloka', serif;
+text-decoration: underline;
+
+}
+
+.show-info-value {
+    text-align: center;
+    /* letter-spacing: ; */
+    font-family: 'Vidaloka', serif;
+    color: rgb(2, 12, 12);
+
 }
 
 #review-content {
