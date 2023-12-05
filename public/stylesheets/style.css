@@ -93,7 +93,7 @@ text-align: center;
 font-family: 'Vidaloka', serif;
 font-size: large;
 }
-.scroll-to-bottom::before {
+.scroll-to-bottom{
   content: "\21E9";
   font-size: 24px;
   display: block; /* Hide the element by default */
@@ -102,13 +102,38 @@ font-size: large;
   margin-left: 50%;
   cursor: pointer;
 }
+
+.popup-position{
+  display:none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+}
+.popup-wrapper{
+  text-align: center;
+  }
+  .popup-container{
+
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 70px auto;
+
+    a{
+        cursor: pointer;
+    }
+}  
 .steps-container {
   display: flex;
   flex-direction: column;
   align-items: center; /* Center the container horizontally */
-  justify-content: flex-end; /* Center the container vertically */
   height: 100vh; /* Set the height to 100% of the viewport height for vertical centering */
-  margin-top: auto;
+  justify-items: center;
+  justify-content: center;
 }
 
 /* Show Page */

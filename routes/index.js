@@ -6,7 +6,9 @@ const passport = require('passport');
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
-rou
+router.get('/steps', function(req, res, next) {
+  res.render('stylist/steps', {title: 'Steps'});
+});
 
 router.get('/auth/google', passport.authenticate(
   // Which passport strategy is being used?

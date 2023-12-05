@@ -4,25 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steps</title>
-    <link rel="stylesheet" href="../public/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
 
 </head>
 <body>
-    <div class="steps-container">
-        <div class="do-first">
-            <h4>1st Step</h4>
-            <p>Create stylist LuxD card by clicking Add New Stylist in the tab bar.</p>
+    <div class="popup-wrapper"> 
+        <div class="steps-container">
+            <div class="do-first">
+                <h4>1st Step</h4>
+                <p>Create stylist LuxD card by clicking Add New Stylist in the tab bar.</p>
+            </div>
+            <div class="do-second">
+                <h4>2nd step</h4>
+                <p>Write a Review Awesome or NOT!<br> Be sure you're logged in to create a review.</p>
+            </div>
+            <div class="do-third">
+                <h4>3rd Step</h4>
+                <p>Tell your Friends<br> <a href="click-to-start"></a></p>
+            </div> 
         </div>
-        <div class="do-second">
-            <h4>2nd step</h4>
-            <p>Write a Review Awesome or NOT!<br> Be sure you're logged in to create a review.</p>
-        </div>
-        <div class="do-third">
-            <h4>3rd Step</h4>
-            <p>Tell your Friends<br> <a href="click-to-start"></a></p>
-        </div> 
+        <div class="modal">
+            <button class="btn btn-primary btn-block">Exit</button>
+            <p><a herf="javascript:void(0)" onclick="toggle_visibility('steps-popup');">Close Popup</a></p>
+          </div>
+          <script>
+         function toggle_visibility(id) {
+                var e = document.getElementById(id);
+
+                // Get the computed style
+                var computedStyle = window.getComputedStyle(e);
+
+                if (computedStyle.display === 'none' || e.style.display === 'none') {
+                    e.style.display = 'block';
+                } else {
+                    e.style.display = 'none';
+                }
+                }
+    </script>
     </div>
-   
 
 
 </body>

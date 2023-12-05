@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+
     <div class="about-container">
         <p class="about">Welcome to LuxD Reviews, your ultimate destination for 
             elevating your styling experience.
@@ -16,8 +17,11 @@
             hair, makeup & more ! <br><br> CLICK BELOW FOR QUICK INSTRUCTIONS
     
         </p>
+        <div class="popup-position" id="steps-popup">
+            <% include('./stylist/steps'); %>
+      </div>
     </div>
-    <a href="/steps.ejs" target="_blank">Click for Steps</a>
+    <a href="/steps" >Click for Steps</a>
 
 </body>
 </html>
