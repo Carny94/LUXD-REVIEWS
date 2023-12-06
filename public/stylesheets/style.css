@@ -130,11 +130,12 @@ font-size: large;
 .steps-container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center the container horizontally */
-  height: 100vh; /* Set the height to 100% of the viewport height for vertical centering */
+  align-items: center;
+  height: 100vh; 
   justify-items: center;
   justify-content: center;
 }
+
 
 /* Show Page */
 

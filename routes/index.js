@@ -6,8 +6,8 @@ const passport = require('passport');
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
-router.get('/steps', function(req, res, next) {
-  res.render('stylist/steps', {title: 'Steps'});
+router.get('/steps', function(req, res) {
+  res.render('partials/steps');
 });
 
 router.get('/auth/google', passport.authenticate(
