@@ -58,6 +58,9 @@ li a:hover {
   top: 5%; /* Adjust the top position for smaller screens */
   position: relative;
 }
+.steps-page-button { 
+  margin-top: 40%;
+}
 
   }
   
@@ -65,7 +68,7 @@ li a:hover {
 
 
 /* Homepage  */
-.about-container{
+.about-container::before {
   border-radius: 25px;
   content: ""; 
   position: fixed;
@@ -102,9 +105,11 @@ font-size: large;
   background-color: #8e97c8; /* Green */
   border: none;
   color: white;
-  padding: 10px 20px; /* Adjust padding to make the button smaller */
+  padding: 10px 15px; /* Adjust padding to make the button smaller */
   text-decoration: none;
   font-size: 16px;
+  display: inline-block;
+  
 }
 
 .steps-container {
