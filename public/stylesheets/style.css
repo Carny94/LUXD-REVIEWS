@@ -37,19 +37,35 @@ li a:hover {
 @media screen and (max-width: 600px) {
   li {
     float: none;
-    width: 100%; /* Make the list items full-width */
+    width: 100%;
+    text-align: center;
   }
 
   li a {
     padding: 10px; /* Adjust padding for smaller screens */
-    text-align: center;
-    display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
   }
+
+  nav > img {
+    display: block;
+    margin: 0 auto;
+  }
+  .body{
+  padding: 15px 0; 
+  width: 75%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  flex-direction: column; /* Stack elements vertically */
 }
+.about {
+  width: 90%; /* Adjust the width for even smaller screens */
+  top: 5%; /* Adjust the top position for smaller screens */
+}
+
+  }
+  
+ 
+
 
 /* Homepage  */
 .about-container::before {
