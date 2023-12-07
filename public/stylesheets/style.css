@@ -1,10 +1,10 @@
 /* Navigation bar */
 * {
   box-sizing: border-box;
-  font-family: Helvetica;
-  color:black;
+  color: black;
+  background-color: antiquewhite;
 }
-ul {
+ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -33,14 +33,22 @@ nav > img {
 li a:hover {
   background-color:#FACFCE;
 }
-/* Universal */
-.body {
-  background-size: contain; 
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
+
+@media screen and (max-width: 600px) {
+  li {
+    float: none;
+    width: 100%; /* Make the list items full-width */
+  }
+
+  li a {
+    padding: 10px; /* Adjust padding for smaller screens */
+    text-align: center;
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
 }
 
 /* Homepage  */
@@ -56,31 +64,10 @@ li a:hover {
   background-size: contain; 
   background-position: center center;
   background-repeat: no-repeat;
-  z-index: -1; 
+  z-index: 0; 
 }
 
-.makeup {
-  background-image: url('../makeup.jpg');
-  display: flex;
-  justify-content: center;
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: 30%;
-  margin-left: 70%;
-}
-.salon {
-  background-image: url('../salon.jpg');
-  display: flex;
-  justify-content: center;
-  height: 350px;
-  width: 400px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-left: 30%;
-  margin-bottom: -70%;
-}
+
 .about{
 width: 40%;
 height:30%;
@@ -93,40 +80,20 @@ text-align: center;
 font-family: 'Vidaloka', serif;
 font-size: large;
 }
-.scroll-to-bottom{
-  content: "\21E9";
-  font-size: 24px;
-  display: block; /* Hide the element by default */
-  position: fixed;
- margin-top: 40%; /* Adjust as needed */
-  margin-left: 50%;
-  cursor: pointer;
-}
-
-.popup-position{
-  display:none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: rgba(0,0,0,0.7);
-  width: 100%;
-  height: 100%;
-}
-.popup-wrapper{
+.steps-button-container {
   text-align: center;
-  }
-  .popup-container{
+  margin-top: 45%;
+}
 
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    margin: 70px auto;
+.steps-page-button {
+  background-color: #8e97c8; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px; /* Adjust padding to make the button smaller */
+  text-decoration: none;
+  font-size: 16px;
+}
 
-    a{
-        cursor: pointer;
-    }
-}  
 .steps-container {
   display: flex;
   flex-direction: column;
@@ -134,13 +101,11 @@ font-size: large;
   height: 100vh; 
   justify-items: center;
   justify-content: center;
+ 
 }
 
 
 /* Show Page */
-
-
-
 
 .delete-form {
   display: flex;
@@ -150,28 +115,14 @@ font-size: large;
 
 }
 
-
-/* #add-review-form {
+.body {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin: 0 auto;
-  max-width: 400px;
-} */
-
-
-html, body {
-  height: 100%;
+  justify-content: center;
+  height: 100vh;
   margin: 0;
-  padding: 0;
 }
 
-/* .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-} */
 
+/* phone size */
 

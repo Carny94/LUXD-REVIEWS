@@ -1,3 +1,4 @@
+<%- include('../partials/header') %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,28 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CreateNew</title>
     <link rel="stylesheet" href="/stylesheets/new.css"> 
-
 </head>
 <body>
-    <%- include('../partials/header') %>
-
-<h3>Enter the stylist you wish to review</h3>
 <form id="new-form" action="/stylist" method ="POST">
-    <label> Instagram:
+    <h3>ENTER YOUR DESIRED STYLIST</h3>
+    <label> STYLIST INSTAGRAM:
         <input type="text" name="instagram">
     </label><br>
     <label> ARTIST TYPE:
         <select name="artistryType">
-            <option value="Makeup">Makeup</option>
+            <option value="Makeup">Makeup </option>
             <option value="Hair">Hair</option>
             <option value="Photography">Photography</option>
         </select>
     </label><br>
-    <label>WILL YOU RECOMMEND ? (check for yes)
+    <label>RECOMMEND(check yes)
         <input type="checkbox" name="recommended">
     </label><br>
     <button type="submit">Enter</button>
 
 </form>
+
+<diiv class="salon"></diiv>
+<div class="makeup"></div>
 </body>
 </html>

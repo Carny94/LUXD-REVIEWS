@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+
+h3 {
+   
+}
+  #new-form {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+  }
+
+label {
+    text-decoration: double;
+}
+
+.makeup {
+    background-image: url('../makeup.jpg');
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -30%;
+    margin-left: 10%;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 5px;
+  }
+
+  .salon {
+    background-image: url('../salon.jpg');
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 70%;
+    margin-top: -20%;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 5px;
+  }
