@@ -1,32 +1,33 @@
 <%- include('./partials/header') %>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-
-    <div class="about-container image container">
-        <p class="about">Welcome to LuxD Reviews, your ultimate destination for 
-            elevating your styling experience.
-            Our user-friendly interface empowers clients to share their valuable 
-            feedback about the exceptional or Not so great service they've received. 
-            Our users are allowed to chose from different stylist such as photography,
-            hair, makeup & more ! <br><br> CLICK BELOW FOR QUICK INSTRUCTIONS
-    
-        </p>
-        <img src="/luxdlogo.jpeg"></div>
+    <div class="home-page-container">
+        <div class="about-container">
+            <div class="about"><p>Welcome to LuxD Reviews, your ultimate destination for 
+                elevating your styling experience. Our user-friendly interface empowers clients to share their valuable 
+                feedback about the exceptional or not so great service they've received. Our users are allowed to choose from different stylists such as photography,
+                hair, makeup & more ! <br><br> CLICK BELOW FOR QUICK INSTRUCTIONS
+            </p>
+            <div class="logo-container">
+                <img src="luxdlogo.jpeg" class="logo">
+            </div>
+            <div class="steps-button-container">
+                <a href="/steps" class="steps-page-button">
+                    explore steps here
+                </a>
+            </div>
+        </div>
     </div>
-    <div class="steps-button-container">
-        <a href="/steps" class="steps-page-button"> 
-        explore steps here 
-        </a>
-    </div>
-    
-
 </body>
+
 </html>
-    
+
 <%- include('./partials/footer')%>

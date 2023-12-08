@@ -35,23 +35,39 @@ li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .about-container,
-  .about,
-  .steps-page-button {
-    width: 100%; /* Make them full-width on small screens */
-    left: 0; /* Adjust positioning for small screens if needed */
+  .home-page-container {
+    width: 100%; /* Make them
+     full-width on small screens */
     margin: 0; /* Remove margin if needed */
+    padding: 15px 0;
   }
 
-.about-container {
-  background-color: pink;
-  background-image: none;
-}
-.about {
+ /* .about {
   background-color: yellow;
+  display: flex;
+  justify-content: center;
+  margin-left: -25%;
+  overflow: hidden;
 }
+ .logo img{
+  background-color: aquamarine;
+  
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  margin-left: 25%;
+  height: inherit;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  height: 75%
+  
+  
+} */
 
- 
 }
 /* .about {
  
@@ -76,25 +92,32 @@ li a:hover {
   left: 0;
   width: 50%;
   height: 50%;
-  background-image: url('/luxdlogo.jpeg');
-  background-size: contain; 
+  /* background-image: url('/luxdlogo.jpeg'); */
+  /* background-size: contain; 
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   z-index: 0; 
 }
-
 .about{
-width: 40%;
-height:30%;
-top: 40%;
-left:50%;
-/* border: 1px solid black; */
-position: fixed;
-word-wrap: break-word;
-text-align: center;
-font-family: 'Vidaloka', serif;
-font-size: large;
+  width: 40%;
+  height:30%;
+  top: 40%;
+  left:50%;
+  /* border: 1px solid black; */
+  position: fixed;
+  word-wrap: break-word;
+  text-align: center;
+  font-family: 'Vidaloka', serif;
+  font-size: large;
+  }
+
+.logo img {
+  width: 50%;
+  height: 70%;
+  margin-top: 20%;
+  margin-left: 20%
 }
+
 .steps-button-container {
   text-align: center;
   margin-top: 45%;
