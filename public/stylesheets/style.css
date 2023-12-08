@@ -35,25 +35,25 @@ li a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  .about-container,
+  .about,
+  .steps-page-button {
+    width: 100%; /* Make them full-width on small screens */
+    left: 0; /* Adjust positioning for small screens if needed */
+    margin: 0; /* Remove margin if needed */
+  }
 
-  * {
-  padding:  0; 
-  width: 75%; 
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
-  flex-direction: column; 
-  background-color: orange;
-}
-
-.steps-page-button { 
-  margin-top: 90%;
-}
 .about-container {
-  position: relative;
+  background-color: pink;
+  background-image: none;
+}
+.about {
+  background-color: yellow;
 }
 
-.about {
+ 
+}
+/* .about {
  
   background-color: aquamarine;
   margin-left: -19%;
@@ -62,8 +62,8 @@ li a:hover {
   top: 40%;
   left: 50%;
 
-}
-  }
+} */
+  
   
  
 
