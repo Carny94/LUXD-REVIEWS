@@ -1,5 +1,5 @@
 /* Navigation bar */
-* {
+/* * {
   box-sizing: border-box;
   color: black;
   background-color: antiquewhite;
@@ -32,7 +32,7 @@ nav > img {
 
 li a:hover {
   background-color:#FACFCE;
-}
+} */
 
 @media screen and (max-width: 600px) {
   * {
@@ -49,16 +49,23 @@ li a:hover {
 }
 .about-container{
   background-color: aliceblue;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
 }
 .about{
   background-color: aqua;
+  
 }
-.logo-container {
+.logo {
   background-color: pink;
   height: 50%;
+  width: 80%;
+
 }
 .steps-button-container{
 background-color: yellow;
+display: flex;
+justify-content: center;
 }
 
 
@@ -66,33 +73,19 @@ background-color: yellow;
 
 
 }
-/* .about {
  
-  background-color: aquamarine;
-  margin-left: -19%;
-  width: 40%;
-  height: 30%;
-  top: 40%;
-  left: 50%;
-
-} */
-  
   
  
-
 
 /* Homepage  */
-.about-container {
+/* .about-container {
   border-radius: 25px;
   position: fixed;
   top: 20%;
   left: 0;
   width: 50%;
   height: 50%;
-  /* background-image: url('/luxdlogo.jpeg'); */
-  /* background-size: contain; 
-  background-position: center center;
-  background-repeat: no-repeat; */
+  
   z-index: 0; 
 }
 .about{
@@ -108,12 +101,6 @@ background-color: yellow;
   font-size: large;
   }
 
-.logo img {
-  width: 50%;
-  height: 70%;
-  margin-top: 20%;
-  margin-left: 20%
-}
 
 .steps-button-container {
   text-align: center;
@@ -150,15 +137,4 @@ background-color: yellow;
   margin-bottom: 80px;
 
 }
-
-.body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-}
-
-
-
-
+ */
