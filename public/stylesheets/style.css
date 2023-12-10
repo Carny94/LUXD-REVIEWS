@@ -97,7 +97,6 @@ li a {
 
   ul.show {
     display: flex;
-    
   }
 
   li {
@@ -136,6 +135,25 @@ border-radius:5px;
 color: black;
 text-wrap: nowrap;
 }
+
+/* steps container */
+
+.steps-container {
+  background-color: rgb(245, 234, 221);
+  scroll-snap-type: y mandatory;
+  border: 2px solid black;
+  border-radius: 5%;
+  margin-top: 50%;
+  margin-inline: 5%;
+}
+
+.do-first,
+.do-second,
+.do-third {
+text-align: center;
+
+}
+
 
 
  
