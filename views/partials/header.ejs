@@ -9,6 +9,11 @@
     
 </head>
 <body>
+    <div class="hamburger-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
    <nav>
     <ul>
     <li><a href="/">HOME</a></li>
@@ -18,3 +23,11 @@
     <li><a href="/auth/google" class="login">LOG IN&nbsp;</a></li>
    </ul>
   </nav>
+
+  <script>
+    document.querySelector('.hamburger-icon').addEventListener('click', function () {
+        document.querySelector('nav ul').classList.toggle('show');
+    });
+</script>
+
+  
