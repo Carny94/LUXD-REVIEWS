@@ -75,6 +75,8 @@ li a {
    margin: 0;
     padding:  0;
     box-sizing: border-box;
+    background-color: rgb(245, 234, 221);
+
   }
   .hamburger-icon {
     display: block;
@@ -109,7 +111,7 @@ li a {
   justify-items: center;
 }
 .about-container{
-  background-color: aliceblue;
+  background-color: rgb(245, 234, 221);
   scroll-snap-type: y mandatory;
   height: 100vh;
 }
@@ -132,6 +134,7 @@ margin-inline: auto;
 border: 1px solid burlywood;
 border-radius:5px;
 color: black;
+text-wrap: nowrap;
 }
 
 
