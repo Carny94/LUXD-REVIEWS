@@ -53,19 +53,24 @@ li a:hover {
   height: 100vh;
 }
 .about{
-  background-color: aqua;
-  
+  text-align: center;
+  padding: 10%;
 }
 .logo {
-  background-color: pink;
   height: 50%;
   width: 80%;
+  margin-left: 10%;
+  border-radius: 5%;
 
 }
 .steps-button-container{
-background-color: yellow;
 display: flex;
 justify-content: center;
+width: 30%;
+margin-inline: auto;
+border: 1px solid burlywood;
+border-radius:5px;
+color: black;
 }
 
 
