@@ -41,7 +41,7 @@ li a:hover {
 .hamburger-icon div {
   width: 35px;
   height: 5px;
-  background-color: black;
+  background-color: rgb(103, 95, 169);
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -78,6 +78,9 @@ li a {
   }
   .hamburger-icon {
     display: block;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 2%    
   }
 
   ul {
@@ -92,6 +95,7 @@ li a {
 
   ul.show {
     display: flex;
+    
   }
 
   li {
