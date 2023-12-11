@@ -1,23 +1,37 @@
 <%- include('../partials/header') %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/stylesheets/all-stylist.css"> 
 
-<table id="list">
+</head>
+<body>
+  <table id="list" class="stylist-table">
     <thead>
       <tr>
-        <th>Instagram</th>
-        <th>Artistry<br>Type</th>
-        <th></th>
+        <h1 class="stylists-header">ALL STYLIST</h1>
+        <p class="description">Scroll below to view all stylist</p>
+        <th class="table-header">Instagram</th>
+        <th class="table-header">Artistry Type</th>
+        <th class="table-header"></th>
       </tr>
     </thead>
     <tbody>
       <% showAllStylist.forEach(function(s) { %>
-        <tr>
-          <td><%= s.instagram %></td>
-          <td><%= s.artistryType %></td>
-          <td><a href="/stylist/<%= s._id %>">DETAILS</a></td>
+        <tr class="table-row">
+          <td class="instagram-cell"><%= s.instagram %></td>
+          <td class="artistry-type-cell"><%= s.artistryType %></td>
+          <td class="details-cell"><a href="/stylist/<%= s._id %>" class="details-link">DETAILS</a></td>
         </tr>
-        <% }); %>
-      </tbody>
-    </table>
-    
+      <% }); %>
+    </tbody>
+  </table>
+</body>
+</html>
+
+
   <%- include('../partials/footer') %>
   

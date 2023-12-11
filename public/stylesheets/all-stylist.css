@@ -1,0 +1,22 @@
+.stylist-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black
+  }
+
+  .stylist-table th, .stylist-table td {
+    border: 1px solid none;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .stylists-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .description {
+    display: flex;
+    justify-content: center;
+  }
+
