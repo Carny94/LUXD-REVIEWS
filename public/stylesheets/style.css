@@ -141,7 +141,7 @@ text-wrap: nowrap;
 .steps-container {
   background-color: rgb(245, 234, 221);
   scroll-snap-type: y mandatory;
-  border: 2px solid black;
+  border: 2px solid burlywood;
   border-radius: 5%;
   margin-top: 50%;
   margin-inline: 5%;
@@ -151,8 +151,15 @@ text-wrap: nowrap;
 .do-second,
 .do-third {
 text-align: center;
-
+margin-inline: 5%;
+margin-top: 5%
 }
+
+a {
+  color:black;
+}
+
+
 
 
 
