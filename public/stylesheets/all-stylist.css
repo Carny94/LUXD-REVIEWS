@@ -3,7 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px; /* Add padding for spacing */
-    color: rgb(0, 0, 0); /* Set text color */
+    color: rgb(0, 0, 0); 
+    margin-bottom: 5%;
   }
   
   .logo-header {
@@ -13,11 +14,10 @@
 .stylist-table {
     border-collapse: collapse;
     width: 100%;
-    border: 1px solid black
-  }
+    border: 1px solid burlywood;
+}
 
   .stylist-table th, .stylist-table td {
-    border: 1px solid none;
     padding: 8px;
     text-align: left;
   }

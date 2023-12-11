@@ -26,23 +26,23 @@
     </form>
 
     <br><br>
-    <h2 class="review-header">Reviews</h2>
+    <h2 class="review-header">Reviews:</h2>
     <% if (user) { %>
       <form id="add-review-form" method="post" action="/stylist/<%= stylist._id %>/reviews">
-        <label for="review-content">Review:</label>
-        <textarea name="content" id="review-content"></textarea>
-        <label for="star-rating">Rating:</label>
+        <!-- <label for="review-content">Review:</label> -->
+        <textarea name="content" id="review-content" placeholder="Type review here"></textarea>
+        <label for="star-rating"></label>
         <fieldset class="star-rating">
           <input type="radio" id="star5" name="rating" value="5" />
-          <label for="star5">5 stars</label>
+          <label for="star5" class="star-label">&#9733;</label>
           <input type="radio" id="star4" name="rating" value="4" />
-          <label for="star4">4 stars</label>
+          <label for="star4" class="star-label">&#9733;</label>
           <input type="radio" id="star3" name="rating" value="3" />
-          <label for="star3">3 stars</label>
+          <label for="star3" class="star-label">&#9733;</label>
           <input type="radio" id="star2" name="rating" value="2" />
-          <label for="star2">2 stars</label>
+          <label for="star2" class="star-label">&#9733;</label>
           <input type="radio" id="star1" name="rating" value="1" />
-          <label for="star1">1 star</label>
+          <label for="star1" class="star-label">&#9733;</label>      
         </fieldset>
         <input type="submit" value="Add Review">
       </form>

@@ -9,8 +9,8 @@
 }
 
 #show-page {
-    border: 1px solid gray;
-    padding: 10px; 
+  border: 1px solid burlywood;
+  padding: 10px; 
     margin-top: 10%;
     
 
@@ -18,9 +18,10 @@
 
 .show-info-label {
 text-align: center;
-/* letter-spacing:  */
+letter-spacing: 1px;
 font-family: 'Vidaloka', serif;
 text-decoration: underline;
+font-weight: bold;
 
 }
 
@@ -32,10 +33,19 @@ text-decoration: underline;
 
 }
 
-#review-content {
-    background-color: #8b0e0e;
-  }
+.delete-form  {
+  display: flex;
+  justify-content: center;
+}
 
+#review-content {
+    background-color: transparent;
+  }
+.star-rating {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
   .review-user {
     display: flex;
     align-items: center;
