@@ -84,7 +84,9 @@ li a {
     margin-bottom: 5%;
     margin-top: 2%    
   }
-
+nav {
+  background-color: #9e826477;
+}
   ul {
     display: none;
     flex-direction: column;

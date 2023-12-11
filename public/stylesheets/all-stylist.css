@@ -1,3 +1,8 @@
+.logo-header {
+    display:flex ;
+    justify-content: end;
+}
+
 .stylist-table {
     border-collapse: collapse;
     width: 100%;
@@ -12,7 +17,8 @@
 
   .stylists-header {
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
+    
   }
 
   .description {
