@@ -1,8 +1,15 @@
-.logo-header {
-    display:flex ;
-    justify-content: end;
-}
-
+.stylists-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Add padding for spacing */
+    color: rgb(0, 0, 0); /* Set text color */
+  }
+  
+  .logo-header {
+    width: auto; /* Adjust the width as needed */
+    height: 30px; /* Maintain the desired height */
+  }
 .stylist-table {
     border-collapse: collapse;
     width: 100%;
@@ -13,12 +20,6 @@
     border: 1px solid none;
     padding: 8px;
     text-align: left;
-  }
-
-  .stylists-header {
-    display: flex;
-    justify-content:flex-start;
-    
   }
 
   .description {
