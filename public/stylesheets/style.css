@@ -130,20 +130,79 @@ a {
 }
 
 @media screen and (min-width: 601px) {
+
   .logo {
-    height: 500px; /* Adjust the height for larger screens */
-    width: auto;  /* Set width to auto to maintain aspect ratio */
-    margin-left: 20px; /* Adjust the left margin for larger screens */
-   margin-top: 5%;
+    height: 500px;
+    width: auto;
+    margin-left: 5%; /* Adjusted margin for better responsiveness */
+    margin-top: 5%;
     border-radius: 5%;
   }
 
- .section {
+  .about-container {
+    scroll-snap-type: y mandatory;
     height: 100vh;
     display: flex;
-  } 
+  }
+
+  .section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden; /* Prevent children from overflowing */
+  }
+
+  .about,
+  .logo {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about {
+    width: 40%; 
+    margin-left: 10%; 
+    margin-top: 15%;
+    text-align: center;
+  }
+
+  .p {
+    white-space: normal;
   
-  
+  }
+
+  .steps-page-button {
+    display: flex;
+    justify-content: center;
+    border: 1px solid burlywood;
+    border-radius:5px;
+    color: black;
+    width: 150px;
+    margin-inline: 45%;
+
+  }
+
+  .steps-button-container a {
+    color: black; 
+    text-decoration: none; 
+}
+
+.steps-container {
+  background-color: rgb(245, 234, 221);
+  scroll-snap-type: y mandatory;
+  border: 2px solid burlywood;
+  border-radius: 5%;
+  margin-top: 30%;
+  margin-inline: 5%;
+}
+
+.do-first,
+.do-second,
+.do-third {
+text-align: center;
+margin-inline: 5%;
+margin-top: 5%
+}
 }
  
 /* Homepage  */
