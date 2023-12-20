@@ -9,10 +9,10 @@ This platform is dedicated to stylists of all kinds, be it makeup artists, photo
 <div align="center">
 <h1>FEATURES</h1>
   <ul>
-<li>Share your thoughts by adding reviews under stylist information.</li>
-<li>Easily update your Instagram name (for now).</li>
-<li>Conveniently log in using your Google email.</li>
-<li> Have the flexibility to delete reviews if you have a change of mind.</li>
+<li >🤔Share your thoughts by adding reviews under stylist information.</li>
+<li >✏️Easily update stylist ig name(for now).</li>
+<li >👩‍💻Conveniently log in using your Google email.</li>
+<li > 🔙Have the flexibility to delete reviews if you have a change of mind.</li>
    </ul>
 </div>
 
