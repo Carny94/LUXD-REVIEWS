@@ -1,17 +1,20 @@
 <div align="center">
-  <img src="https://github.com/Carny94/LUXD-REVIEWS/assets/134980150/1e6aea7c-b782-49cf-b259-2354f5a91ad5"<img width="1440" alt="Screenshot 2023-12-19 at 4 36 10 PM" 
- width="600" height="300"/>
+  <img src="https://github.com/Carny94/LUXD-REVIEWS/assets/134980150/1e6aea7c-b782-49cf-b259-2354f5a91ad5" 
+  width="600" height="300" alt="Screenshot 2023-12-19 at 4:36:10 PM" />
 </div>
-Welcome to " Luxd Reeviews ". When you enter this website feel free to be free and open up about your recent stylist appointment. Rather it was awesome or not so awesome. We still will like to hear. Opinions matter here! 
+<div style="text-align: center; color: pink;">Welcome to 'Luxd Reviews.' As you step into our virtual space, feel liberated to share your thoughts on your recent stylist appointment, whether it was a dazzling experience or a bit less than expected. We value your opinions!
 
-I have created this site for stylist of all sorts(makeup, photography, and more). Sometime we dont know what we're getting are selves into when we sit in that chair. So i think it is helpful to have a site specificly for stylist and there clients!
+This platform is dedicated to stylists of all kinds, be it makeup artists, photographers, and more. Sometimes, we find ourselves in the stylist's chair without knowing exactly what to expect. That's why I've created this site—a place tailored for stylists and their clients to exchange valuable insights. Your feedback matters, and we're here to amplify the voices of both stylists and clients alike!</div>
 
-## FEATURES:smirk:
-- ADD REVIEWS UNDER STLYIST INFO
-- UPDATE IG NAME (FOR NOW)
-- LOGIN WITH YOUR GOOGLE EMAIL
-- DELET REVIEWS IF YOU HAVE A CHANGE OF MIND
-
+<div align="center">
+<h1>FEATURES</h1>
+  <ul>
+<li>Share your thoughts by adding reviews under stylist information.</li>
+<li>Easily update your Instagram name (for now).</li>
+<li>Conveniently log in using your Google email.</li>
+<li> Have the flexibility to delete reviews if you have a change of mind.</li>
+   </ul>
+</div>
 
 ![ExpressJS-Dark](https://github.com/mookdook94/Project2/assets/134980150/53a4dbf8-9ca4-46eb-901f-ec92fb490c92)
 ![HTML](https://github.com/mookdook94/Project2/assets/134980150/0f1cdd76-49b6-4949-91d6-9367dacf4396)
