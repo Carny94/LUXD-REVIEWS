@@ -98,7 +98,7 @@ display: flex;
 justify-content: center;
 width: 30%;
 margin-inline: auto;
-border: 1px solid burlywood;
+border: 2px solid burlywood;
 border-radius:5px;
 color: black;
 text-wrap: nowrap;
@@ -171,14 +171,19 @@ a {
   
   }
 
+  .steps-button-container {
+    margin-top: -6%;
+    display: flex;
+    justify-content: center;
+  }
+
   .steps-page-button {
     display: flex;
     justify-content: center;
-    border: 1px solid burlywood;
+    border: 2px solid burlywood;
     border-radius:5px;
     color: black;
     width: 150px;
-    margin-inline: 45%;
 
   }
 
@@ -188,11 +193,12 @@ a {
 }
 
 .steps-container {
-  background-color: rgb(245, 234, 221);
   scroll-snap-type: y mandatory;
   border: 2px solid burlywood;
-  border-radius: 5%;
-  margin-top: 30%;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-inline: 5%;
 }
 
