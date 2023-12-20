@@ -16,6 +16,16 @@ This platform is dedicated to stylists of all kinds, be it makeup artists, photo
    </ul>
 </div>
 
+<div align="center">
+<h1>SOON...</h1>
+  <ul>
+<li >Luxd Users will be allowd to see other reviews from others. </li>
+<li >Luxd Users will be able to update more like review, stylist input and more!</li>
+<li >Search BAR that will allow Luxd Users to search other users by instagram name.</li>
+<li >Comin soon.</li>
+   </ul>
+</div>
+
 ![ExpressJS-Dark](https://github.com/mookdook94/Project2/assets/134980150/53a4dbf8-9ca4-46eb-901f-ec92fb490c92)
 ![HTML](https://github.com/mookdook94/Project2/assets/134980150/0f1cdd76-49b6-4949-91d6-9367dacf4396)
 ![CSS icon](https://github.com/mookdook94/Project2/assets/134980150/7c619e6f-0125-4965-b06e-2144db2f37c2)
