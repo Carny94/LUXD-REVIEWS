@@ -1,4 +1,7 @@
-<img width="1440" alt="Luxd Main Page" src="https://github.com/mookdook94/Project2/assets/134980150/faad3218-1425-4a78-8a1a-8c43ef8cc28b">
+<div align="center">
+  <img src="https://github.com/Carny94/LUXD-REVIEWS/assets/134980150/1e6aea7c-b782-49cf-b259-2354f5a91ad5"<img width="1440" alt="Screenshot 2023-12-19 at 4 36 10 PM" 
+ width="600" height="300"/>
+</div>
 Welcome to " Luxd Reeviews ". When you enter this website feel free to be free and open up about your recent stylist appointment. Rather it was awesome or not so awesome. We still will like to hear. Opinions matter here! 
 
 I have created this site for stylist of all sorts(makeup, photography, and more). Sometime we dont know what we're getting are selves into when we sit in that chair. So i think it is helpful to have a site specificly for stylist and there clients!
